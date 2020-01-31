@@ -1,0 +1,2 @@
+# MyLinuxConfig
+config
