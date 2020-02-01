@@ -2,8 +2,10 @@ let mapleader=" "
 syntax on
 map S :w<CR>
 map Q :q<CR>
-map R :source $MYVIMRC<CR>
 set number
+set shiftwidth=4
+set tabstop=8
+set softtabstop=-1
 set norelativenumber
 set cursorline
 set wrap
@@ -14,18 +16,14 @@ exec "nohlsearch"
 set incsearch
 set ignorecase
 set smartcase
-
 set nocompatible
 filetype on
 filetype indent on
 filetype plugin on
 filetype plugin indent on
-set mouse=a
 set encoding=utf-8
 let &t_ut=''
 set expandtab
-set shiftwidth=2
-set softtabstop=2
 set list
 set listchars=tab:▸\ ,trail:▫
 set scrolloff=5
@@ -53,3 +51,7 @@ Plug 'vimwiki/vimwiki'
 
 
 call plug#end()
+
+color snazzy
+
+  
