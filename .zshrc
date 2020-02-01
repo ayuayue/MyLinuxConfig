@@ -118,6 +118,8 @@ alias chgrp='sudo chgrp'
 alias c='clear'
 alias ra='ranger'
 alias l='ls -al'
+alias mv='sudo mv'
+alias rm='sudo rm'
 
  export MYVIMRC=$HOME/.vimrc
  export GOPROXY=https://goproxy.cn
